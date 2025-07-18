@@ -10,6 +10,7 @@ TLDR of functionality (the important stuff anyways):
   - Tracked the amount of activity (hours & minutes) spent by group members in the 
      game, automatically creating and uploading the information to customizable 
      spreadsheets compatible with multiple groups and discord servers
+  - Allowed HRs to make announcements to all active ROBLOX servers at once with one command
   - Allowed HRs to change players' group ranks through commands
   - Allowed players to submit games for group events, all of which were compiled for 
      HRs to use
