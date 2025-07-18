@@ -81,13 +81,6 @@ app.get("/globalmessage",(req,res)=>{
     res.send(globalmessagestatus)
 })
 
-const spamactive = false
-
-function sendusermessageforspam(channel){
-    channel.send("hey lol")
-    setTimeout(sendusermessageforspam,1000,channel)
-}
-
 let modid = "744795716324687963" // ROLE ID for what roles can ACCEPT or DECLINE games
 
 async function banuserfromdisc(message){
@@ -115,15 +108,6 @@ client.on("ready",()=>{
     client.guilds.cache.each(svr=>{
         console.log("server name "+svr.name)
     })
-    if(spamactive==true){
-        let guild = client.guilds.cache.get("381898228410482711")
-        let id = "236921470075273216" // user id
-        guild.members.fetch(id).then(user=>{
-            user.createDM().then(channel=>{
-                sendusermessageforspam(channel)
-            })
-        })
-    }
 })
 
 app.get("/teleportstuff",(req,res)=>{
