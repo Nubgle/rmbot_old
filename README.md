@@ -2,6 +2,7 @@
 RM Bot from 2020-2021(ish)
 
 this repo just has the source code for the old discord bot I made for the group Roblox's Myths
+
 the code is not very pretty nor optimal, but i was like 15 so i get an excuse
 
 TLDR of functionality (the important stuff anyways):
